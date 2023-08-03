@@ -1,0 +1,84 @@
+.inputContainer{
+    width: 100%;
+    height:40px;
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.heroImage{
+    width:100%;
+    height:400px;
+    object-fit: cover;
+}
+
+.heroText{
+    position:absolute;
+    top:25%;
+    left:50px;
+    color:white;
+    font-size: 1.3rem;
+}
+
+.heroSection{
+    position: relative;
+}
+
+.searchContainer{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.inputIcon{
+    width:350px;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    display:flex;
+    align-items: baseline;
+    background-color: white;
+}
+
+.inputIcon:hover{
+    cursor: pointer;
+}
+
+.icon{
+    margin-right:15px;
+}
+
+.selectBox{
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.selectContainer{
+    margin: 1rem 2rem 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.cardContainer{
+    padding: 0 2rem 0 2rem;
+}
+
+@media only screen  and (max-width:768px){
+    .heroImage{
+        height:200px;
+    }
+    .heroText{
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen  and (max-width:500px){
+    .heroImage{
+        height:150px;
+    }
+}

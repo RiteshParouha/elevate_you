@@ -1,0 +1,12 @@
+.footer{
+    height:100px;
+    width:100%;
+    text-align: center;
+    color:gray;
+    padding:1rem;
+    box-sizing: border-box;
+}
+.footer h3{
+    margin-top: 2rem;
+    width:100%;
+}
